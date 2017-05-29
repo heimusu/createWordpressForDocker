@@ -1,0 +1,75 @@
+   27  docker ps -a
+   28  docker start centos8
+   29  docker exec -it centos8
+   31  docker exec -it centop8 bash
+   32  docker exec -it centos8 bash
+   78  docker inspect
+   80  docker inspector
+   81  docker inspect
+   82  docker inspect centos8
+  119  docker ps
+  172  docker ps
+  173  history | grep docker
+  174  docker ps -a
+  175  docker start centos6
+  176  docker exec -it centos6 bash
+  177  docker start centos6
+  178  docker exec -it centos6 bash
+  197  docker ps
+  198  docker exec -it centos6 bash
+  199  docker stop centos6
+  203  docker ps 
+  204  docker run -i -t -d -name centos7 -p 3000:80 centos
+  205  docker run -i -t -d --name centos7 -p 3000:80 centos
+  206  docker exec -it centos7 bash
+  207  docker ps
+  208  docker exec -it centos7 bash
+  209  docker images
+  210  docker exec -it centos7 bash
+  211  history | grep docker
+  212  docker stop centos7
+  213  docker rm centos7
+  214  docker run --privileged -p 3000:80  --name centos8 -d centos /sbin/init
+  215  docker exec -it centos8
+  216  docker exec -it centos8 bash
+  217  docker exec -it centos8 bash
+  218  docker start centos8
+  219  docker exec -it centos8 bash
+  220  docker exec -it centos8 bash
+  221  docker start centos8
+  222  docker exec -it centos8 bash
+  223  docker start centos8
+  224  docker exec -it centos8 bash
+  226  docker start centos8
+  227  docker exec -it centos8 bash
+  228  docker stop centos8
+  249  docker ps
+  263  docker-machine
+  264  docker-machine ls
+  265  docker-machine create --driver virtualbox dev
+  266  docker-machine ssh
+  268  docker-machine ssh dev
+  270  docker inspect centos3
+  279  docker network ls
+  280  docker network ls -a
+  281  docker network ls --help
+  407  docker images
+  411  docker run --privileged --name centos -d centos /sbin/init 
+  412  docker ps -a
+  413  docker run --privileged --name centos6 -d centos /sbin/init 
+  414  docker exec -it centos6
+  415  docker exec -it centos6 bash
+  416  docker pull mikesplain/telnet
+  417  docker run -d --name telnet mikesplain/telnet 80 80 
+  418  docker exec -it telnet bash
+  419  docker start telnet
+  420  docker exec -it telnet bash
+  421  docker rm telnet
+  422  docker ps 
+  423  docker stop centos6
+  424  docker rm centos6
+  425  docker run --privileged --name centos6 -d centos /sbin/init  -p 3000:80
+  426  docker exec -it centos6 bash
+  429  docker exec -it centos6 bash
+  502  history | grep docker
+  503  history | grep docker > dockerCommand.txt
